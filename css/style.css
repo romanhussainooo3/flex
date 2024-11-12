@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.header{
+    width: 100%; 
+    padding: 10PX 0PX;
+   
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+}
+.navber .logo img{
+    width: 175px;
+}
+.navber .menu{
+    display: block;
+}
+.navber .menu li{
+    list-style: none;
+    display: inline-block; 
+    margin: 27px 0px 0px;
+}
+.navber .menu li a{
+    font-size: 14px;
+    font-weight:700 ;
+    color: black;
+    margin: 0px 15px;
+    text-transform: capitalize;
+}
+.button{
+    display: block;
+    margin: 27px 0px 0px;
+   
+}
+.btn-primary{
+ margin: 0px 4px;
+background: #0e72cc;
+color: #fff;
+ padding: 10px 20px;
+}
+
+.button .btn-primary .fa{
+    font-size: 18px;
+    margin-right: 6px;
+   
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-banner{
+    display: flex;
+    align-items: center;
+}
+.inner-left{
+    
+}
+.inner-left h1{
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.inner-left h5{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+  
+}
+.inner-left .btn-primary{
+    font-weight: 300;
+    font-size: 19px;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #0e72cc;
+    margin: 17px 0px 0px;
+    color: white;
+    border-radius: 7px;
+
+}
+.feature{
+    width: 100%;
+    padding: 80px, 0px;
+    display: block;
+}
+.inner-feature{
+    display: flex;
+}
+.featurebox{
+display: flex;
+padding: 40px 25px;
+margin: 0px 15px;border-radius: 10px;
+
+}
+.icon{
+flex-basis: 15%;
+}
+.icon .fa{
+    font-size: 30px;
+    color: #fff;
+    
+}
+.content{
+    flex-basis: 85%;
+}
+.content h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: #fff;
+
+
+}
+.content p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+   
+  
+}
+.bg1{
+    background: #f9799a;
+}
+.bg2{
+    background: #61c4d8;
+}
+.bg3{
+    background: #0e72cc;
+}
